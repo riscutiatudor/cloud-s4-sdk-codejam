@@ -40,7 +40,7 @@ stages:
 
   productionDeployment:
     cfTargets:
-      - org: 'TechEd2018_CNA629-TechEd2018'
+      - org: ':TechEd2018_CNA629-TechEd2018'
         space: 'teched'
         apiEndpoint: 'https://api.cf.eu10.hana.ondemand.com'
         credentialsId: 'cf-deploy'
